@@ -1,0 +1,34 @@
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:28:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   28 |                 digit = display_number % 10;
+      |                       ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.018
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:32:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   32 |                 digit = (display_number / 10) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:36:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   36 |                 digit = (display_number / 100) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:40:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   40 |                 digit = (display_number / 1000) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:44:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   44 |                 digit = (display_number / 10000) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:48:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   48 |                 digit = (display_number / 100000) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:52:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   52 |                 digit = (display_number / 1000000) % 10;
+      |                       ^
+%Warning-WIDTHTRUNC: /openlane/designs/semi_cpu/src/seven_segment_display.v:56:23: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's MODDIV generates 32 bits.
+                                                                                 : ... note: In instance 'semi_cpu.display'
+   56 |                 digit = (display_number / 10000000) % 10;
+      |                       ^
